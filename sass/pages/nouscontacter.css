@@ -1,0 +1,207 @@
+.header {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 10px;
+}
+
+.menu {
+  text-align: center;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+}
+.menu ul a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#pour {
+  margin-left: 40px;
+  margin-top: 40px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  gap: 40px;
+}
+
+form {
+  width: 60%;
+  padding-right: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  cursor: pointer;
+  border: solid black 1px;
+  border-radius: 4px;
+  transition: 0.5s ease-in;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+  transform: scale(0.9);
+}
+
+.form-image {
+  width: 40%;
+  margin-left: 20px;
+}
+.form-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.footer{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF2E3;
+}
+
+.global{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card1{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card3{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 img{
+  width: 55%;
+}
+
+.button{
+  width: 200px;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+button{
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+}
+
+#icone{
+  width: 8%;
+}
+
+.card2 h1{
+  border-bottom: solid black 1px;
+  padding-bottom: 20px;
+  margin-bottom: auto;
+}
+
+.button-tel {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#iconetel{
+  width: 30px;
+  height: 35px;
+}
+
+.paragraphe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#miaou{
+  border-bottom: solid black 1px;
+  padding-bottom: 20px;
+  margin-bottom: auto;
+}
+
+
+/*# sourceMappingURL=nouscontacter.css.map */

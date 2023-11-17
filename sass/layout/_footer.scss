@@ -1,0 +1,107 @@
+.footer{
+  border: solid blue 1px;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF2E3;
+}
+
+.global{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card1{
+  border: solid rgb(128, 255, 0) 1px;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2{
+  border: solid rgb(255, 0, 102) 1px;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card3{
+  border: solid rgb(255, 175, 14) 1px;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 img{
+  width: 55%;
+}
+
+.button{
+  width: 200px;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+button{
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+}
+
+#icone{
+  width: 8%;
+}
+
+.card2 h1{
+  border-bottom: solid black 1px;
+  margin-bottom: auto;
+}
+
+.button-tel {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#iconetel{
+  width: 30px;
+  height: 35px;
+}
+
+.paragraphe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.card3 h1{
+  border-bottom: solid black 1px;
+  margin-bottom: auto;
+}

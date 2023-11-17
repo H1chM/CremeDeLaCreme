@@ -1,0 +1,39 @@
+.header {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 10px;
+}
+
+
+
+.menu {
+  text-align: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    li {
+      display: inline;
+      margin-right: 20px;
+      color: black;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  }
+}
